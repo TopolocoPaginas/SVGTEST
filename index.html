@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,17 +8,21 @@
       margin: 0;
       padding: 0;
       background: #111;
-      height: 100%;
+    }
+    .svg-wrapper {
+      max-width: 100%;
+      margin: 0 auto;
     }
     object {
       display: block;
       width: 100%;
-      height: 100%;
-      border: none;
+      height: auto;
     }
   </style>
 </head>
 <body>
-  <object data="clickable_collage.svg" type="image/svg+xml"></object>
+  <div class="svg-wrapper">
+    <object data="clickable_collage.svg" type="image/svg+xml"></object>
+  </div>
 </body>
 </html>
