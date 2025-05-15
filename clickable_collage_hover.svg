@@ -1,0 +1,21 @@
+
+<svg viewBox="0 0 1462 768" width="100%" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .thumb {
+      fill: transparent;
+      cursor: pointer;
+    }
+    .thumb:hover {
+      fill: rgba(0, 123, 255, 0.25);
+    }
+  </style>
+
+  <!-- Collage background -->
+  <image href="Categories_Collage_s.jpg" width="1462" height="768" />
+
+  <!-- Clickable rectangle with hover and open-in-new-tab -->
+  <rect class="thumb" x="0" y="256" width="365.5" height="256"
+        onclick="window.open('VISCOM_M1_Construct_Page_36.jpg', '_blank')">
+    <title>Michelangelo's 'Creation of Adam'</title>
+  </rect>
+</svg>
